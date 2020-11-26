@@ -26,4 +26,4 @@ Steps to deploy
 	* "SALESFORCE_MODE" to either "modal" or "inline" to control how the login box is rendered
 	* "SALESFORCE_FORGOT_PASSWORD_ENABLED" to either "true" or "false" depending if you want to display the forgot password link
 	* "SALESFORCE_SELF_REGISTER_ENABLED" to either "true" or "false" depending if you want to display the user registration link
-6. Open the app and enjoy!
+6. Now that you've deployed your 2 apps you can start to rebrand the apps by adding your own images. 
