@@ -1,7 +1,7 @@
-embedded-login-example
+Multi-brand external identity asset
 ====================
 
-This simple app builds a basic PHP app running on Heroku and uses Salesforce Identity and the Login Widget project. Users have to log in to get access to data sheet.
+This will help you to set up a demo for multi-brand external identity. It is based on the salesforceidentity/embedded-login-example github repo. Start by deploying this package to 2 heroku apps, these will represent your 2 sites. 
 
 Pre-requisites
 --------------
