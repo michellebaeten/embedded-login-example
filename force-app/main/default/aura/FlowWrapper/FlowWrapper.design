@@ -1,0 +1,4 @@
+<design:component>
+    <design:attribute name="expid" label="Experience ID" description="which branding to use"/>
+   <design:attribute name="flowName" label="Flow API Name" description="which flow to run"/>
+</design:component>

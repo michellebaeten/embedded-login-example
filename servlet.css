@@ -1,0 +1,356 @@
+.sfid-mb12 {
+	margin-bottom: 12px
+}
+.sfid-mb16 {
+	margin-bottom: 16px
+}
+.sfid-mb24 {
+	margin-bottom: 24px
+}
+.sfid-mt12 {
+	margin-top: 12px
+}
+.sfid-mt16 {
+	margin-top: 16px
+}
+
+.sfid-bt {
+    border-top: 1px solid #F4F6F9;
+	padding-top:20px;
+}
+
+.sfid-fl {
+    float:left;
+}
+
+.sfid-fr {
+    float:right;
+}
+
+.sfid-button-label {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #54698d;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.sfid-disabled {
+    background-color: #A7B8D1;
+    color: white;
+	padding: 12px 24px;
+	border-radius: 5px;
+	border: 0;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sfid-button{
+    background-color: #db011c;
+    color: white;
+	padding: 12px 24px;
+	border-radius: 5px;
+	border: 0;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sfid-button:focus {
+  border-color: #fff;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.sfid-button:hover {
+	cursor: pointer; cursor: hand;
+}
+
+.sfid-button-trans {
+  background-color: rgba(255,255,255,0.4);
+  border-color: #fff;
+}
+
+.sfid-secondary {
+	background-color: #fff;
+	border: 1px solid #e0e5ee;
+	color: #0070d2
+}
+.sfid-secondary:hover {
+	background-color: #f7f9fb
+}
+.sfid-login-button {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.sfid-wide {
+	width: 100% !important
+}
+#sfid-username, .sfid-username {
+	border-radius: 5px;
+	font-size: 14px;
+	border: 1px solid #e0e5ee;
+	background-color: #f7f9fb;
+	font-family: Arial, Helvetica, sans-serif;
+   	box-sizing: border-box;
+	transition: all .1s;
+	height:46px;
+	line-height:20px;
+	-webkit-appearance: none
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	padding: 12px;
+}
+
+
+#sfid-username:focus, .sfid-username:focus  {
+	background-color: #fff;
+	outline: 0;
+	border: 1px solid #000000;
+}
+
+
+#sfid-password, .sfid-password {
+	border-radius: 5px;
+	font-size: 14px;
+	border: 1px solid #e0e5ee;
+	background-color: #f7f9fb;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	transition: all .1s;
+	-webkit-appearance: none;
+	height:46px;
+	line-height:20px;
+	-webkit-appearance: none
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	padding: 12px;
+}
+#sfid-password:focus , .sfid-password:focus{
+	background-color: #fff;
+	outline: 0;
+	border: 1px solid #000000;
+}
+
+
+#sfid-wrapper {
+	padding: 0;
+	display: block;
+	min-width: 310px;
+	max-width: 320px;
+	max-height: 80%;
+	z-index: 1002;
+	overflow: auto;
+	margin: 80px auto 0;
+	background-color:#F2F2F2;
+	box-shadow: 0px 2px 6px #090909;
+	-webkit-box-shadow: 0px 2px 6px #090909;
+	-moz-box-shadow: 0px 2px 6px #090909;
+	border-radius:5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sfid-standard_logo_wrapper {
+	text-align: center;
+    min-width: 280px;
+    max-width: 390px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
+    position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    vertical-align: middle;	
+}
+.sfid-standard_logo {
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	width: 180px
+}
+#sfid-content {
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #e0e5ee;
+	box-shadow: 0 2px 6px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 2px 6px rgba(0,0,0,.4)
+}
+
+#sfid-links {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom:15px;
+	font-size: 12px;
+	
+}
+
+#sfid-links a {
+    color: #555555;
+}
+#sfid-links a {
+    text-decoration: none;
+    transition: all 0.1s;
+}
+
+#sfid-social {
+	text-align: center;
+    -webkit-margin-after: .5em;
+}
+
+#social-title {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+   	font-size: 12px;	
+}
+
+#sfid-social ul {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+
+#sfid-social li {
+	margin-left: 0px;
+	margin-right: 0px;
+	display: inline;
+}
+
+#sfid-social-buttonimg, img.sfid-social-buttonimg {
+	vertical-align: middle;
+}
+
+#sfid-social button {
+    color: #555555;
+    cursor: pointer;
+    font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.42857143;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    background-image: none;
+	background-clip: border-box;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 1px solid #d8dde6;
+    border-radius: .25rem;
+    border-color: #555555;
+    padding: 10px 12px;
+    transition: color 50ms linear,background-color 50ms linear;
+    max-width: 270px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#sfid-social button:hover {
+    background: #d8edff;
+    text-shadow: none;
+    color: #16325c;
+}
+
+#sfid-error{
+	color:red;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#sfid-error ul {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+
+#sfid-error li {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.sfid-avatar {
+	width:32px;
+	height:32px;
+	border-radius:32px;
+	border: 2px solid #a8a5a5;
+	vertical-align: middle;
+}
+
+.sfid-avatar-name {
+    margin: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sfid-small {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #54698d;
+	text-align: center;
+    -webkit-margin-after: 1em;
+    -webkit-margin-before: 1em;
+}
+.sfid-lightbox {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 1001;
+	background: rgba(177,186,193,0.8);
+}
+
+.sfid-logout {
+	display:none;
+	width:0px;
+	height:0px;
+	tabIndex:-1;
+}
+
+
+.sfid-callback {
+	display:none;
+	width:0px;
+	height:0px;
+	tabIndex:-1;
+}
+
+#sfid-selfreg-password {
+	display: inline-block;
+	width: 100% !important;
+}
+
+#sfid-self-registration {
+    float: right;
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    color: red;
+}
+
+#sfid-forgot-password {
+    float: left;
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    color: red;
+}
+
+
+@media only screen and (max-height: 736px) {#sfid-wrapper {margin: 20px auto 0;}}

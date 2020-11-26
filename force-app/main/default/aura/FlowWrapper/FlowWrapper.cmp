@@ -1,0 +1,6 @@
+<aura:component description="FlowWrapper" implements="forceCommunity:availableForAllPageTypes">
+    <aura:attribute name="expid" type="String" default=""/>
+        <aura:attribute name="flowName" type="String" default="User_Registration_Flow"/> 
+    <aura:handler name="init" value="{!this}" action="{!c.init}" /> 
+    <lightning:flow aura:id="flowHolder" />	
+</aura:component>
