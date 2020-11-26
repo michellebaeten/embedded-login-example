@@ -81,14 +81,14 @@ var SFIDWidget = function () {
             R = SFIDWidget.authconfig.SamlProviders.length;
         if (w && (C > 0 || R > 0)) {
             var k = document.createElement("br");
-            (L = document.createElement("p")).className = "sfid-small", L.innerHTML = "",
+            (L = document.createElement("p")).className = "sfid-small", L.innerHTML = "or log in using",
                 o.appendChild(k), o.appendChild(L)
         } 
          else if (!w && (C > 0 || R > 0)) {
             var L;
             (L = document.createElement("p")).className = "sfid-small sfid-mb16", L.innerHTML = "Choose an authentication provider.", o.appendChild(L)
         }
-     /*   if (SFIDWidget.authconfig.AuthProviders.length > 0) {
+        if (SFIDWidget.authconfig.AuthProviders.length > 0) {
             (O = document.createElement("div")).id = "sfid-social";
             for (var U = document.createElement("ul"), _ = 0;
                 _ < SFIDWidget.authconfig.AuthProviders.length; _++) {
@@ -123,7 +123,7 @@ var SFIDWidget = function () {
 
                 H.appendChild(q), E.appendChild(H), U.appendChild(E)
             } O.appendChild(U), o.appendChild(O)
-        } */
+        } 
         if ("modal" === SFIDWidget.config.mode) {
             var X = document.createElement("div");
             X.className = "sfid-lightbox", X.id = "sfid-login-overlay", X.setAttribute("onClick", "SFIDWidget.cancel()");
