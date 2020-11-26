@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FIX, curated coffee components</title>
+     <title></title>
 
     <link href="reset.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600" type="text/css" rel="stylesheet">
@@ -16,12 +16,15 @@
     <meta name="salesforce-mode" content="<?php echo getenv('SALESFORCE_MODE');?>">
     <meta name="salesforce-namespace" content="<?php echo getenv('SALESFORCE_NAMESPACE');?>">
     <meta name="salesforce-target" content="#sign-in-link">
+    <meta name="salesforce-expid" content="exp1">  <!-- add your Experience ID here if you want to use it in the community -->
     <meta name="salesforce-save-access-token" content="true">
     <meta name="salesforce-forgot-password-enabled" content="<?php echo getenv('SALESFORCE_FORGOT_PASSWORD_ENABLED');?>">
     <meta name="salesforce-self-register-enabled" content="<?php echo getenv('SALESFORCE_SELF_REGISTER_ENABLED');?>">
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
     <meta name="salesforce-mask-redirects" content="<?php echo getenv('SALESFORCE_MASK_REDIRECTS');?>">
+	  <!-- These 2 links can be replaced with your own Javascript and CSS file, which allows you to customise and brand the login widget for each Heroku site
+		The easiest way to do this is to copy the files from the links underneath and upload them to your heroku app, then change the link underneath-->
 	<link href="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
   </head>
@@ -46,18 +49,18 @@
 
       <ul class="products">
         <li>
-          <img class="product-image" src="images/products/071715_Heroku_3270-.jpg" alt="">
-          <h3 class="product-name">AeroPress Coffee Maker</h3>
+          <img class="product-image" src="images/products/button1.png" alt=""> 
+          <h3 class="product-name"></h3>
           <div class="product-button"><a id="aero_link" class="btn btn-hot" href="#" onclick="SFIDWidget.login()">Login for more info</a></div>
         </li>
         <li>
-          <img class="product-image" src="images/products/071715_Heroku_3263-.jpg" alt="">
-          <h3 class="product-name">MSR Reactor 2.5L Stove System</h3>          
+          <img class="product-image" src="images/products/button2.png" alt="">
+          <h3 class="product-name"></h3>          
           <div class="product-button"><a id="reactor_link" class="btn btn-hot" href="#" onclick="SFIDWidget.login()">Login for more info</a></div>
         </li>
         <li>
-          <img class="product-image" src="images/products/071715_Heroku_3302.jpg" alt="">
-          <h3 class="product-name">Chemex Classic 6-cup Coffee Maker</h3>
+          <img class="product-image" src="images/products/button3.png" alt="">
+          <h3 class="product-name"></h3>
           <div class="product-button"><a id="chemex_link" class="btn btn-hot" href="#" onclick="SFIDWidget.login()">Login for more info</a></div>
         </li>
       </ul>
@@ -90,7 +93,7 @@
         </li>
       </ul>
 
-    </section>
+    </section> 
     <footer>
 
       <div class="trailer-logo">
